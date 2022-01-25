@@ -1,7 +1,7 @@
 /**
  * 
  */
-package first.Barb.lab1;
+package draft.barb.globalpet;
 
 /**
  * @author barbz
