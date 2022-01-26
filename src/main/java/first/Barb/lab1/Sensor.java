@@ -8,6 +8,12 @@ package first.Barb.lab1;
  *
  */
 public class Sensor {
+	private int elevation;
+	private String mangeticstrip;
+	private String opticalsensor;
+	private boolean edge;
+	
+	
 	public void detectEdge() {
 		
 	}
