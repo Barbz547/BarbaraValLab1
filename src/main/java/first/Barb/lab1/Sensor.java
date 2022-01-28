@@ -7,7 +7,7 @@ package first.Barb.lab1;
  * @author barbz
  *
  */
-public class Sensor {
+/**public class Sensor {
 	private int elevation;
 	private String mangeticstrip;
 	private String opticalsensor;
@@ -29,5 +29,5 @@ public class Sensor {
 	private void rotateBody() {
 		
 	}
-}
+}**/
 

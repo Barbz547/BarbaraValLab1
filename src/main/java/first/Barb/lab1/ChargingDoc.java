@@ -8,6 +8,7 @@ package first.Barb.lab1;
  *
  */
 public class ChargingDoc {
+	private int power;
 	
 	public void leaveChargeport() {
 		//once fully charged the vacuum can leave the port and resume vacuuming
@@ -16,6 +17,7 @@ public class ChargingDoc {
 		//can enter port when battery levels are low
 	}
 	public void selfCharge() {
+		//starts charging automatically until full
 		
 	}
 }

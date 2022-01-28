@@ -9,11 +9,13 @@ package first.Barb.lab1;
  */
 public class Filter {
 	
-	private void increasePower() {
+	private void maxPower() {
 		//suction power raised for carpeted areas
 	}
 	private void lowPower() {
 		//suction power lowered for tile and hard-wood 
 	}
-
+	private void suctionDebris() {
+		
+	}
 }
