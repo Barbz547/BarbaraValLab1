@@ -8,5 +8,5 @@ package first.Barb.lab1;
  *
  */
 public class InteriorBody {
-
+	private String Sensor;
 }
