@@ -7,7 +7,7 @@ package first.Barb.lab1;
  * @author barbz
  *
  */
-public class OpticalSensor {
+public class OpticalSensor extends ExteriorBody {
 	
 	public void detectObsticle() {
 		

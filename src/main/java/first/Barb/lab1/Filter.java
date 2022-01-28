@@ -16,6 +16,6 @@ public class Filter {
 		//suction power lowered for tile and hard-wood 
 	}
 	private void suctionDebris() {
-		
+		//debris is pulled through the filter an stored there
 	}
 }
