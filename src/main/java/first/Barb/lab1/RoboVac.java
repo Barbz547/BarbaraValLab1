@@ -15,6 +15,12 @@ public class RoboVac extends EmptyComponent  {
 	private double price; // price varies from as low as $50 to as high as $1200
 	private String model; //different models to one vacuum
 	
+	public RoboVac() {
+		myApp = new App();
+		myChargingDoc= new ChargingDoc();
+			
+			
+	}
 
 	/**
 	 * @param args
