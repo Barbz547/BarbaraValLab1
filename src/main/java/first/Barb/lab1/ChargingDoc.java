@@ -42,7 +42,7 @@ public class ChargingDoc implements GenericComponent{
 		// TODO Auto-generated method stub
 		List internalComponents = new ArrayList(); // create an empty list
 		Object component1;
-		Collections.addAll(internalComponents, component1, component2, ....); // add all your sub components
+		Collections.addAll(internalComponents, power); // add all your sub components
 		return internalComponents;
 	}
 }

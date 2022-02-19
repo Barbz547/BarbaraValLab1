@@ -3,11 +3,14 @@
  */
 package first.Barb.lab1;
 
+import edu.fiu.jit.SelfCheckCapable;
+import edu.fiu.jit.SelfCheckUtils;
+
 /**
  * @author barbz
  *
  */
-public class App {
+public class App implements SelfCheckCapable {
 	private String voicecontrol; //connect to Alexa to activate product voice control
 	public int power; //See power level in app
 	private String location; //preset location for cleaning in the app
@@ -37,7 +40,21 @@ public class App {
 	public void stopClean() {
 		//can have vacuum stay idle without turning off
 	}
+	public App() {
+		
+	}
 
+	@Override
+	public String getComponentName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean selfCheck() {
+		// TODO Auto-generated method stub
+		return SelfCheckUtils.randomCheck(0.05);
+	}
 	
 	
 	
